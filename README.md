@@ -5,6 +5,7 @@
    For more informations about Yeoman, see [Yeoman.io](http://yeoman.io/)
  
  ## Installation
+ 
    `$ npm install -g generator-flask`
  
    * This package is not published on npm yet *
