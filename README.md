@@ -2,7 +2,6 @@
  
    Generator to use Yeoman on a  project.
  
- 
  ## Installation
  
    * This package is not published on npm yet *
