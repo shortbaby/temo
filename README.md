@@ -4,25 +4,20 @@
 
    For more informations about Yeoman, see [Yeoman.io](http://yeoman.io/)
  
- ## Installation
+ ##安装
  
-   `$ npm install -g generator-flask`
- 
-   * This package is not published on npm yet *
- 
-   Clone the repo then run `$ sudo python install.py`
- 
-   This will install the generator globally so you will be able to use it everywhere.
- 
-   You may need to re-install the generator every time you update Yeoman.
- 
-   If the install script failed, here is how to install it manually:
+   `$ npm install -g generator-temo`
+
+   如果安装失败, 请执行以下步骤尝试。
  
    * `$ cd /usr/local/lib/node_modules/yeoman/node_modules/yeoman-generators/lib/generators`
-   * `$ git clone git@github.com:shortbaby/temo.git` (you may need to run this with `sudo`)
+   * `$ git clone git@github.com:shortbaby/temo.git` (权限问题 加上 `sudo`)
  
- ## Documentation
+ ## 文档
  
- ### Init
+ ### 初始化项目
  
-   `$ yeoman init yeoman-temo` - Generates a new  app with all the basic files you need.
+   `$ node temo add `  添加模板
+   `$ node temo list ` 列表模板
+   `$ node temo delete ` 删除模板
+   `$ node temo init ` 根据模板初始化项目结构
