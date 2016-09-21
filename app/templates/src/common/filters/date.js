@@ -11,6 +11,7 @@
  * @param {string} pattern  
  * @return {string}         
  */
+var Vue = require('vue');
 Vue.filter('date', function(date, pattern, lang) {
 	if (!date) {
 		return '';

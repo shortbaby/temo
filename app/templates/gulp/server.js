@@ -106,11 +106,9 @@ gulp.task('server:start',  function () {
                         }
                     ));
                 break;
-            case 'html':
-                reply.file(PROJECT_PATH + param);
-                break;
             default :
-                reply.file(PROJECT_PATH + param);
+                console.log(PROJECT_PATH + '/' + param);
+                reply.file(PROJECT_PATH + '/' + param);
                 break;
         }
     }

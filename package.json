@@ -1,6 +1,6 @@
 {
   "name": "generator-temo",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "yeoman generator for demo",
   "main": "app/index.js",
   "preferGlobal": true,

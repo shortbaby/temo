@@ -12,6 +12,7 @@ import store from './store';
 import Toast from './common/components/Toast.vue';
 import SideBar from './common/components/SideBar.vue';
 import {getSys} from './common/util/ua';
+import $ from 'jquery';
 // directives
 require('./common/directives/disable');
 
@@ -25,6 +26,10 @@ require('./common/filters/alpha');
 require('./common/filters/minute');
 require('./common/filters/qrcode');
 require('./common/filters/barcode');
+
+var Vue = require('vue');
+var VueRouter = require('vue-router');
+var FastClick = require('fastclick');
 
 Vue.use(VueRouter);
 
@@ -68,3 +73,5 @@ const $body = $('body');
 window.removeBodyModalOpen = function() {
 	$body.removeClass('modal-open');
 };
+
+FastClick.attach(document.body);

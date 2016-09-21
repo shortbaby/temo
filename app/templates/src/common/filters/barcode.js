@@ -9,6 +9,7 @@
  * 获取某个订单的条形码
  * @param {string} code
  */
+var Vue = require('vue');
 Vue.filter('barcode', function(code) {
 	if (!code) {
 		return '';

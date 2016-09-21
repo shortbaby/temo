@@ -8,6 +8,7 @@
  * 显示季度
  * @param {number} value
  */
+var Vue = require('vue');
 Vue.filter('weektype', function(value) {
 	if (!value) {
 		return '';

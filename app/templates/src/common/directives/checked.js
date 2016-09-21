@@ -4,7 +4,7 @@
  */
 
 'use strict';
-
+var Vue = require('vue');
 Vue.directive('checked', {
     // 每当绑定的数据变化时，这个函数就被调用啦
     update: function (value) {

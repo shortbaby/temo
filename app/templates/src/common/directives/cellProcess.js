@@ -3,7 +3,7 @@
  */
 
 'use strict';
-
+var Vue = require('vue');
 Vue.directive('cellProcess', {
     params: ['option'],
     paramWatchers: {

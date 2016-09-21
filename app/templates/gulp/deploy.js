@@ -7,7 +7,6 @@ var gulp = require('gulp');
 
 gulp.task('build',
 	[
-    	'concat-plugin',
     	'md5'
 	]
 );

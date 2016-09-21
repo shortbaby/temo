@@ -9,6 +9,7 @@
  * 显示季度
  * @param {number} value
  */
+var Vue = require('vue');
 Vue.filter('season', function(value) {
 	if (!value) {
 		return '';

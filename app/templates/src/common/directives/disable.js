@@ -4,7 +4,7 @@
  */
 
 'use strict';
-
+var Vue = require('vue');
 Vue.directive('disable', {
     update: function (value) {
          // 这里的 this 指向一个directive对象。

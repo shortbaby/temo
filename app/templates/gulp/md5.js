@@ -33,7 +33,7 @@ gulp.task('md5:img', ['md5:css', 'img', 'html'], function() {
         .pipe(gulp.dest('./output/src/resource/img'));
 });
 
-gulp.task('md5:script', ['script', 'concat-plugin', 'html'], function() {
+gulp.task('md5:script', ['script', 'html'], function() {
      return gulp
         .src([
             './output/src/**/*.js'

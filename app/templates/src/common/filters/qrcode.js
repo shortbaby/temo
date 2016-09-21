@@ -9,6 +9,7 @@
  *  获取某个url的二维码
  * @param {string} url
  */
+var Vue = require('vue');
 Vue.filter('qrcode', function(url, size) {
 	var qrSize = size || 6;
 	if (!url) {

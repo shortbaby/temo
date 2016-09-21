@@ -7,6 +7,7 @@
  * @param {string || Number} val   
  * @return {string}         
  */
+var Vue = require('vue');
 Vue.filter('str', {
 
 	read: function(val) {

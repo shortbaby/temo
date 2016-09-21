@@ -10,6 +10,7 @@
  * @param {number} value
  * @return {string}
  */
+var Vue = require('vue');
 Vue.filter('minute', function(value) {
 	if (!value) {
 		return '';

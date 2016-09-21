@@ -5,6 +5,7 @@
  * @param {string} index     
  * @return {string}         
  */
+var Vue = require('vue');
 const AlphaArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 Vue.filter('alpha', function(index) {
     if (index === null || index === undefined) {

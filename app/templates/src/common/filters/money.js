@@ -8,6 +8,7 @@
  * @param {string} pattern  
  * @return {string}         
  */
+var Vue = require('vue');
 Vue.filter('money', function(number, decimal) {
 	if (!number) {
 		return '￥ 0.00';

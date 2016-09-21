@@ -6,7 +6,7 @@
 'use strict';
 
 let compressImage = require('../plugin/compressImage');
-
+var Vue = require('vue');
 /**
  * 裁剪图片
  * @param {string} url   

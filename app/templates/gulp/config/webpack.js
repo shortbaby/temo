@@ -4,18 +4,25 @@
  */
 
 'use strcit';
-
+var webpack = require('webpack');
 module.exports = {
     entry: {
-        main: ['./src/main.js']
+        main: ['./src/main.js'],
+        vendor: ['jquery', 'vue', 'vue-router', 'fastclick']
     },
     debug: true,
     output: {
         path: __dirname + '/output/src/',
         publicPath: '/output/src/',
-        filename: '[name].js'
+        filename: '[name].js',
+        chunkFilename: "[name].js",
     },
-    plugins: [],
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({
+            name: "vendor",
+            filename: "vendor.js"
+        })
+    ],
     module: {
         loaders: [
             {
@@ -30,13 +37,22 @@ module.exports = {
             {
                 test: /\.scss$/,
                 loaders: ["style", "css", "sass"]
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url'
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|svg)$/,
+                loader: 'url'
             }
         ]
     },
-    externals: {
-        '$': '$',
-        'jquery': 'jQuery',
-        'vue': 'Vue'
+    vue: {
+        loaders: {
+            css: 'style!css!sass',
+            html:'html-loader'
+        }
     },
     babel: {
         presets: ['es2015'],

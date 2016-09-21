@@ -3,8 +3,9 @@
  * @author xuguanlong
  */
 
-'use strict';
 
+'use strict';
+var Vue = require('vue');
 var Vuex = require('vuex');
 
 import mutations from './mutations';
