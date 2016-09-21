@@ -1,14 +1,7 @@
 
 
-#天校定制版（留学） 初期客户飞渡#
-
-
-## 人员说明
----
-RD: 陈小明  
-FE: 李小斌  
-PM: 易小为  
-QA: 黄龙
+#天校定制版 starter kit#
+Author xuguanlong
 
 ## 开发环境
 ---
@@ -17,7 +10,7 @@ QA: 黄龙
 
 ## 接口说明文档地址
 ---
-http://git.baijiahulian.com/yunying/tianxiao/
+
 
 ## 联调环境
 ---
