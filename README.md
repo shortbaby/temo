@@ -1,17 +1,13 @@
-# Yeoman temo 脚手架
+# temo 脚手架
  
    脚手架工具
-
-   更多信息, 参考 [Yeoman.io](http://yeoman.io/)
    
  ##安装
  
-    `$ npm install -g generator-temo`
+    `$ npm install -g temo`
 
-    如果安装失败, 请执行以下步骤尝试。
+    如果安装失败, 请执行以下步骤尝试。提交issue
  
-    * `$ cd /usr/local/lib/node_modules/yeoman/node_modules/yeoman-generators/lib/generators`
-    * `$ git clone git@github.com:shortbaby/temo.git` (权限问题 加上 `sudo`)
  
  ##文档
     初始化项目
