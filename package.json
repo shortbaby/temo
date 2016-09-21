@@ -1,7 +1,7 @@
 {
   "name": "temo",
   "version": "1.1.2",
-  "description": "yeoman generator for demo",
+  "description": "cli for demo",
   "main": "app/index.js",
   "preferGlobal": true,
   "files": [
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/shortbaby/temo.git"
   },
   "keywords": [
-    "yeoman-generator"
+    "tianxiao"
   ],
   "author": "xuguanlong",
   "license": "ISC",
