@@ -2,7 +2,8 @@
   "name": "generator-temo",
   "version": "0.0.1",
   "description": "yeoman generator for demo",
-  "main": "index.js",
+  "main": "app/index.js",
+  "preferGlobal": true,
   "files": [
     "app",
     "router"
