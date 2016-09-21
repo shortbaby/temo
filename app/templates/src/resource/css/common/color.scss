@@ -1,0 +1,75 @@
+/**
+ * @file 颜色
+ * @author lixioabin
+ */
+
+// 主色
+$brand-primary: #00CCFF;
+$brand-primary-light: #F8CE69;
+$brand-primary-lighter: #FFFBEF;
+
+// 信息色
+$brand-info: #6287D5;
+$brand-info-light: #ABC0E9;
+$brand-info-lighter: #EDF3FD;
+
+$brand-success: #56B02A;
+$brand-success-light: #91C876;
+$brand-success-lighter: #E7FFDB;
+
+$brand-error: #F95710;
+$brand-error-light: #E7B69F;
+$brand-error-lighter: #FDE3D7;
+
+$brand: #1c9cdd;
+$brand-shallow: #a1d4ee;
+$brand-hover: #51b5e8;
+
+
+// 灰度
+$gray-darker: #555;
+
+$gray-999: #999;
+
+$gray-dark: #888;
+
+$gray-base: #989898;
+
+$gray-light: #CCC;
+
+$gray-lighter: #F8F8F8;
+
+// 文本颜色（暗灰色）
+$brand-text: #3D3D3D;
+
+//有逼格的浅灰色
+$brand-text-bige: #6f7276;
+
+$brand-text-light: #6D6D6D;
+
+$brand-text-lighter: #9D9D9D;
+
+
+// 背景色
+$bg-color: #f2f4f5;
+
+// 文本色
+$text-color: $gray-darker;
+
+// 链接色
+$link-color: $text-color;
+
+// 链接悬浮色
+$link-color-hover: darken($link-color, 5%);
+
+// 边框颜色
+$border-grey: #d3d3d3;
+
+// 常用蓝色
+$light-blue: #19c0fe;
+
+// 常用橙色
+$orange: #ff9933;
+
+
+

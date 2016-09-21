@@ -1,0 +1,52 @@
+
+@keyframes playing {
+    @each $i in 0 25 50 75 100 {
+        #{$i}% {
+            @if $i%50 == 0 {
+                @include scale(0.5);
+            } @else {
+                @include scale(1);
+            }
+        }
+    }
+}
+
+@-webkit-keyframes playing {
+    @each $i in 0 25 50 75 100 {
+        #{$i}% {
+            @if $i%50 == 0 {
+                @include scale(0.5);
+            } @else {
+                @include scale(1);
+            }
+        }
+    }
+}
+
+.audio-player {
+    text-align: center;
+    font-size: 1.2rem;
+    background: #6ab516;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 0.2rem;
+    line-height: 1;
+    max-width: 8rem;
+
+    >.icon-wave-right {
+        margin-right: 0.7rem;
+        display: inline-block;
+    }
+
+    >audio {
+        display: none;
+    }
+
+    &.playing {
+        >.icon-wave-right {
+            @include animation-name(playing);
+            @include animation-duration(3s);
+            @include animation-iteration-count(infinite);
+        }
+    }
+}

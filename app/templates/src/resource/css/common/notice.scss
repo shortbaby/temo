@@ -1,0 +1,27 @@
+/**
+ * @file 低版本浏览器提示框
+ * @author XiaoBin Li(lixiaobin@baijiahulian.com)
+ */
+
+.not-support-browser {
+    background: 10px 8px no-repeat #fbe3e4;
+    border: 1px solid #fbc2c4;
+    border-right-style: none;
+    border-left-style: none;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.not-support-360-chrome {
+    display: none;
+    background: #e1ecfe;
+    border: 0;
+    color: #333;
+
+    >a {
+        text-decoration: underline;
+        color: #1b61d6;
+    }
+}

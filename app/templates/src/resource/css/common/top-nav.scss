@@ -1,0 +1,184 @@
+.top-nav {
+	background: #2b3643;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #2b3643;
+	> li {
+		display: inline-block;
+		list-style: none;
+		vertical-align: middle;
+		height: 49px;
+		line-height: 49px;
+		margin-right: 10px;
+		position: relative;
+		&.feidulogo {
+			// padding-top: 10px;
+			float: left;
+			margin-left: 40px;
+			// display: none;
+			img {
+				margin-top: 10px;
+			}
+		}
+		a {
+			text-decoration: none;
+			color: #fff;
+		}
+		> .logo {
+			border-radius: 50%;
+			vertical-align: middle;
+			margin-right: 3px;
+			border: 1px solid #2b3643;
+		}
+		> .icon {
+			font-size: 20px;
+			vertical-align: middle;
+			position: relative;
+			top: -3px;
+		}
+		&.link {
+			font-size: 24px;
+			margin-right: 40px;
+			.quick-link {
+				cursor: pointer;
+			}
+			.popover {
+				max-width: 300px;
+				width: 300px;
+				right: 0;
+				left: auto;
+				.arrow {
+					left: 94%;
+				}
+				.popover-title {
+					height: 30px;
+					line-height: 30px;
+					span {
+						font-size: 20px;
+						color: #6f7276;
+						margin-left: 10px;
+					}
+				}
+				.popover-content {
+					padding: 0px;
+					margin: 20px 20px 0 20px;
+					@include clearfix;
+				}
+			}
+		}
+		&.msg {
+			font-size: 25px;
+			margin-right: 40px;
+			.popover {
+				width: 300px;
+				max-width: 300px;
+				right: 0;
+				left: auto;
+				.arrow {
+					left: 94%;
+				}
+				.popover-title {
+					height: 30px;
+					line-height: 30px;
+					span {
+						font-size: 20px;
+						color: #6f7276;
+						margin-left: 10px;
+					}
+				}
+			}
+			.message {
+				position: relative;
+				cursor: pointer;
+				i {
+					position: absolute;
+					display: inline-block;
+					width: 22px;
+					height: 22px;
+					border-radius: 12px;
+					background: #f51e0b;
+					color: #ffffff;
+					font-style: normal;
+					font-size: 12px;
+					font-weight: 700;
+					top: -5px;
+					left: 0;
+					text-align: center;
+					line-height: 15px;
+				}
+			}
+		}
+		&.arrow {
+			.btn-group {
+				color: #fff;
+				.dropdown-menu a{
+					color: #000;
+				}
+			}
+		}
+	}
+}
+.link-do-list {
+	list-style: none;
+	>li {
+		display: inline-block;
+		float: left;
+		width: 120px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 16px;
+		border-radius: 10px;
+		box-sizing: border-box;
+		text-align: center;
+		background: #1ac8ff;
+		color: #fff;
+		margin-bottom: 20px;
+		cursor: pointer;
+		&:nth-child(odd) {
+			margin-right: 20px;
+		}
+		&:nth-child(6n+1) {
+			background-color: #6d9bfb;
+		}
+		&:nth-child(6n+2) {
+			background-color: #ff674d;
+		}
+		&:nth-child(6n+3) {
+			background-color: #2ed1d3;
+		}
+		&:nth-child(6n+4) {
+			background-color: #90d1f4;
+		}
+		&:nth-child(6n+5) {
+			background-color: #ffc438;
+		}
+		&:nth-child(6n) {
+			background-color: #68cf84;
+		}
+	}
+}
+.my-menu-target {
+	cursor: pointer;
+}
+.dropdown-menu {
+	&.my-menu {
+		max-width: 80px;
+		min-width: 80px;
+		left: none;
+		left: inherit;
+		right: 0;
+		> li {
+			> a {
+				text-decoration: none;
+			}
+		}
+		&-target {
+			cursor: pointer;
+		}
+	}
+}

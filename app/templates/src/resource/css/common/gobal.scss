@@ -1,0 +1,82 @@
+/**
+ * @file global
+ * @author lixioabin
+ */
+
+html {
+    font-size: 62.5%;
+   	height: 100%;
+}
+
+body {
+    font: 12px/1.5 Heiti SC,tahoma,arial,'Hiragino Sans GB',\5FAE\8F6F\96C5\9ED1,sans-serif;
+	color: #333;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+    background: #edf0f5;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+label {
+	font-weight: normal;
+}
+
+.red {
+	color: red;
+}
+.brand {
+	color: $brand;
+}
+.text-danger {
+	color: #c7254e;
+}
+
+#vue-ui-confirm {
+	.icon-info-circle {
+		color: #c7254e;
+		margin-right: 8px;
+		font-size: 16px;
+		margin-top: 2px;
+		float: left;
+	}
+	.confirm-content {
+		overflow: hidden;
+	}
+}
+
+.none-list {
+	text-align: center;
+	padding: 3rem;
+	color: #999;
+	min-width: 98px;
+	min-height: 98px;
+	&:before {
+		background: url('../../resource/img/none-data-bg.png') no-repeat;
+		background-size: contain;
+		margin: 30px auto;
+		width: 98px;
+		height: 98px;
+		display: block;
+		content: '　';
+	}
+}
+
+.select-menu {
+	min-width: 95px;
+}
+.user-select-none {
+	-webkit-user-select: none;  /* Chrome all / Safari all /opera15+*/  
+    -moz-user-select: none;     /* Firefox all */  
+    -ms-user-select: none;      /* IE 10+ */  
+    user-select: none;  
+}

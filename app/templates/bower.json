@@ -1,0 +1,38 @@
+{
+  "name": "tianxiao-libra-frontend",
+  "version": "1.0",
+  "authors": [
+    "lixiaobin"
+  ],
+  "description": "天校定制",
+  "keywords": [
+    "crm",
+    "天校"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dep",
+    "test",
+    "tests"
+  ],
+  "browserify-shim": {
+    "jquery": "$"
+  },
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "jquery": "~2.1.4",
+    "normalize.css": "~3.0.3"
+  },
+  "devDependencies": {
+    "vue": "~1.0.16",
+    "vue-strap": "~1.0.3",
+    "moment": "~2.10.6",
+    "vue-router": "~0.7.8",
+    "animate.css": "~3.5.1",
+    "fastclick": "~1.0.6"
+  }
+}

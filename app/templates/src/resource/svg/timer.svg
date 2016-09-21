@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>9A4BC112-00A8-46A5-BD6F-DEE8DBBB494B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <ellipse id="path-1" cx="3.80434783" cy="3.78947368" rx="3.80434783" ry="3.78947368"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.60869565" height="7.57894737" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <ellipse id="path-3" cx="12.5" cy="11.3684211" rx="11.4130435" ry="11.3684211"></ellipse>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.826087" height="22.7368421" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <ellipse id="path-5" cx="21.1956522" cy="3.78947368" rx="3.80434783" ry="3.78947368"></ellipse>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.60869565" height="7.57894737" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <ellipse id="path-7" cx="12.5" cy="11.3684211" rx="11.4130435" ry="11.3684211"></ellipse>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.826087" height="22.7368421" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="线索管理---我的线索---线索详情---交互状态" transform="translate(-1151.000000, -406.000000)">
+            <g id="record_add-copy-4" transform="translate(1151.000000, 398.000000)">
+                <g id="icon-timer-hover" transform="translate(0.000000, 8.000000)">
+                    <use id="Oval-126" stroke="#6F7276" mask="url(#mask-2)" stroke-width="3" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <use id="Oval-125-Copy" stroke="#94989E" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <use id="Oval-126-Copy" stroke="#6F7276" mask="url(#mask-6)" stroke-width="3" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <path d="M10.6265876,16.4210526 L3.62318841,23.3970701" id="Path-2709" stroke="#6F7276" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M22.0396311,16.4210526 L15.0362319,23.3970701" id="Path-2709-Copy" stroke="#6F7276" stroke-width="1.5" stroke-linecap="round" transform="translate(18.537931, 19.909061) scale(-1, 1) translate(-18.537931, -19.909061) "></path>
+                    <use id="Oval-125" stroke="#6F7276" mask="url(#mask-8)" stroke-width="3" fill="#FFFFFF" xlink:href="#path-7"></use>
+                    <polyline id="Path-2711" stroke="#6F7276" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="12.5 5.05263158 12.5 12.0286491 16.9834669 12.0286491"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+.profile {
+	@include clearfix();
+	> p {
+		float: left;
+		> img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	> img {
+		float: left;
+	}
+	> div {
+		float: left;
+		margin: .8rem 0 0 1rem;
+		overflow: hidden;
+	}
+}

@@ -1,0 +1,43 @@
+{
+  "name": "vue-strap",
+  "version": "1.0.8",
+  "homepage": "https://github.com/yuche/vue-strap",
+  "authors": [
+    "yuche <i@yuche.me>"
+  ],
+  "description": "Boostrap components built with Vue.js",
+  "main": [
+    "dist/vue-strap.js",
+    "dist/vue-strap.js.map",
+    "dist/vue-strap.min.js"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "bootstrap",
+    "vue.js",
+    "vue-components"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "docs",
+    "src",
+    "favicon.ico",
+    "index.html",
+    "webpack*.js"
+  ],
+  "_release": "1.0.8",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.8",
+    "commit": "fe3c70e98982eea07308bfdd8c353407fed3ad55"
+  },
+  "_source": "git://github.com/yuche/vue-strap.git",
+  "_target": "~1.0.3",
+  "_originalSource": "vue-strap"
+}

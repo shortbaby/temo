@@ -1,0 +1,82 @@
+
+@import '../../../dep/bootstrap-sass/assets/stylesheets/bootstraplite';
+@import '../../../dep/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../../dep/bootstrap-sass/assets/stylesheets/bootstrap/mixins/alerts';
+@import '../../../dep/bootstrap-sass/assets/stylesheets/bootstrap/alerts';
+@import './common/mixin';
+@import './common/vue';
+@import './common/variable';
+@import './common/color';
+@import './common/top-nav';
+@import './common/form';
+@import './common/tabs';
+@import './common/uploadDialog';
+@import './common/audioPlayer';
+@import './common/gobal';
+@import './common/override';
+@import './common/table';
+
+@import './common/option';
+@import './components/setHeader';
+
+.modal-open {
+	overflow-y: hidden;
+}
+.btn-group {
+	&.open {
+		.dropdown-toggle {
+			box-shadow: none;
+		}
+	}
+	.btn-default {
+		background: #fff;
+		&:hover {
+			background: #fff;
+			box-shadow: none;
+		}
+		&:active {
+			background: #fff;
+			box-shadow: none;
+		}
+	}
+}
+.btn-group {
+	&.open {
+		.btn-default {
+			&.dropdown-toggle {
+				box-shadow: none;
+				background-color: #fff;
+				border-color: #ccc;
+			}
+		}
+	}
+	.btn-default {
+		background: #fff;
+		&:hover {
+			background: #fff;
+			box-shadow: none;
+		}
+		&:active {
+			background: #fff;
+			box-shadow: none;
+		}
+	}
+}
+.main {
+	padding-left: 192px;
+	height: 100%;
+	background: #edf0f5;
+	padding-top: 50px;
+	&-content {
+		padding-bottom: 10px;
+		background: #fff;
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+	}
+	-webkit-tap-highlight-color: transparent;
+
+	.list-wrapper {
+		padding: 30px;
+	}
+
+}
+

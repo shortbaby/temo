@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="线索管理_线索详情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="跟进记录" transform="translate(-272.000000, -585.000000)" fill="#45AEF8">
+            <g id="record" transform="translate(222.000000, 396.000000)">
+                <g id="timeline" transform="translate(34.000000, 94.000000)">
+                    <path d="M40,95 C26.8,95 16,105.8 16,119 C16,132.2 26.8,143 40,143 C53.2,143 64,132.2 64,119 C64,105.8 53.2,95 40,95 L40,95 Z M48.1,132.8 C44.5,132.8 37,128.9 33.4,125.6 C30.1,121.7 26.2,114.5 26.2,110.9 C26.2,110.9 29.8,105.5 31.6,105.5 C33.4,105.5 38.8,110.9 37,112.7 C35.5,114.5 33.7,114.5 33.7,116.3 C33.7,118.1 35.5,119.9 37.3,121.7 C39.1,123.5 40.9,125.3 42.7,125.3 C44.5,125.3 44.5,123.5 46.3,121.7 C48.1,119.9 53.5,125.3 53.5,127.1 C53.8,129.2 48.1,132.8 48.1,132.8 L48.1,132.8 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

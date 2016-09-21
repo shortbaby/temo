@@ -1,1 +1,8 @@
-{"tpl":{}}
+{
+	"tpl":
+	{
+		"tianxiao": {
+			"url": "app/templates"
+		}
+	}
+}

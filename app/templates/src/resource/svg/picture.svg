@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>A0B376FB-B4A9-42C9-B3B3-D6F90D259AEF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0.5" y="0.620689655" width="30" height="22.7586207" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="22.7586207" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="线索管理---我的线索---线索详情---交互状态" transform="translate(-1196.000000, -286.000000)" stroke="#6F7276">
+            <g id="record_add-copy-3" transform="translate(1151.000000, 278.000000)">
+                <g id="icon-picture-hover" transform="translate(45.000000, 8.000000)">
+                    <use id="Rectangle-1245" mask="url(#mask-2)" stroke-width="3" xlink:href="#path-1"></use>
+                    <ellipse id="Oval-128" stroke-width="1.5" cx="8.5" cy="7.5" rx="2.5" ry="2.5"></ellipse>
+                    <polyline id="Path-2712" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="1.5 18.9999998 7.79870675 12.7012932 11.5 16.5"></polyline>
+                    <polyline id="Path-2713" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="9.5 18.9999999 19.7803556 8.7196444 29.5 18.4999999"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang=zh><head><base href="/"><meta charset=UTF-8><title>天校</title><meta name=apple-mobile-web-app-capable content=yes><meta name=description content="跟谁学 机构平台 - 携手同行 共筑梦想"><meta name=viewport content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name=apple-mobile-web-app-status-bar-style content=yes><meta name=renderer content=webkit><meta http-equiv=X-UA-Compatible content="IE=11"><link rel=stylesheet href=src/resource/css/plugins.css type=text/css><link rel=stylesheet href=src/resource/css/main.css type=text/css></head><body><div class="not-support-browser not-support-360-chrome" id=notSupport360Chrome>当您使用的是360(极速)浏览器时，如果网页不能正常工作，请将浏览器切换至兼容模式。 <a href=http://se.360.cn/v6/help/help5.html target=_blank>如何切换？</a></div><toast :show.sync=showToast :type=toastType v-cloak>{{ toastMessage }}</toast><side-bar v-ref:sidebar></side-bar><div id=main class=main><ul class=top-nav><li class=feidulogo><img src=http://img.gsxservice.com/8024484_ppq9uszd.png></li></ul><div class=main-content><router-view transition-mode=out-in></router-view></div></div></body><script type=text/javascript>
+        (function () {
+            var win = window;
+            var _is360chrome=false;
+
+            if (!win.chrome) {
+                return;
+            }
+
+            try{
+              if(typeof( chrome )!= "undefined" && typeof( chrome.webstorePrivate)!='undefined' && typeof (chrome.webstorePrivate.beginInstallWithManifest3)!='undefined'){
+                _is360chrome=true;
+              }else {
+                _is360chrome=navigator.userAgent.toLowerCase().indexOf('360ee')!=-1;
+              }
+            }catch(e){};
+
+            var _track = 'track' in document.createElement('track');
+            var webstoreKeysLength = win.chrome && win.chrome.webstore ? Object.keys(win.chrome.webstore).length : 0;
+
+            if (!_is360chrome) {
+                if (win.clientInformation && win.clientInformation.permissions) {
+                    _is360chrome = false;
+                }
+
+                if (_track) {
+                    if (webstoreKeysLength < 2) {
+                        _is360chrome = true;
+                    }
+                }
+            }
+
+            if (_is360chrome) {
+                document.getElementById('notSupport360Chrome').style.display = 'block';
+            }
+        })();
+
+    </script><script src=src/plugins_dd806a633f.js></script><script type=text/javascript src=src/main_33550cd97c.js></script><script>
+        FastClick.attach(document.body);
+    </script><html></html></html>

@@ -1,0 +1,95 @@
+form {
+	.vf-dirty {
+		&.vf-invalid {
+			border: 1px solid red !important;
+		}
+	}
+	.form-group {
+		float: left;
+		position: relative;
+		width: 50%;
+		padding: 0 20px;
+		box-sizing: border-box;
+		margin-bottom: 15px;
+		> div {
+			display: inline-block;
+			position: relative;
+			&.date {
+				&:before {
+					position: absolute;
+					font-family: 'icomoon';
+					right: 10px;
+					top: 13px;
+					font-size: 16px;
+					content: "\e908";
+					color: #999;
+				}
+			}
+			&.time {
+				&:before {
+					position: absolute;
+					font-family: 'icomoon';
+					right: 10px;
+					top: 11px;
+					font-size: 18px;
+					content: "\e901";
+					color: #999;
+				}
+			}
+		}
+		input {
+			height: 19px;
+			padding: 6px 7px 6px 12px;
+			line-height: 19px;
+			outline: none;
+			border: 1px solid #ddd;
+			&.normal {
+				width: 336px;
+			}
+			&.small {
+				width: 100px;
+			}
+			&.medium {
+				width: 200px;
+			}
+		}
+		input[disabled] {
+			background: #DDD;
+			cursor: not-allowed;
+		}
+		textarea {
+			height: 80px;
+			padding: 5px;
+			outline: none;
+			-webkit-appearance: none;
+			border: 1px solid #ddd;
+			width: 100%;
+			resize: none;
+		}
+		h3 {
+			font-weight: normal;
+			font-size: 14px;
+			> a {
+				font-size: 14px;
+			}
+		}
+
+		label {
+			font-weight: normal;
+			&.required:after {
+				content: '*';
+				margin: 3px 0 0 4px;
+				color: #f95710;
+				font-size: 14px;
+
+			}
+			> span {
+				color: #999;
+			}
+		}
+	}
+}
+
+.add-student-form {
+	padding-bottom: 300px;
+}

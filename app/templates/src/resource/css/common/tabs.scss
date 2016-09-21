@@ -1,0 +1,22 @@
+.tabs {
+  margin: 20px 0;
+  border-top: 2px solid #66ccff;
+
+  > li {
+    display: inline-block;
+    margin-right: 40px;
+    list-style: none;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    &.active {
+      border-bottom: 3px solid $brand;
+    }
+  }
+}
+
+.tabl-content {
+  background: #fff;
+  padding: 10px;
+}

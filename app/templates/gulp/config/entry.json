@@ -1,0 +1,5 @@
+{
+    "entry": {
+        "main_build": "./src/main.js"
+    }
+}
